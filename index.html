@@ -34,7 +34,15 @@ ul li a {
 ul li a:hover {
   background-color: #000000;
 }
+
+.container {
+  display: flex;
+}
+.container div {
+  width: 33%;
+}
 </style>
+
 </head>
 <body>
 
@@ -46,13 +54,19 @@ ul li a:hover {
 </ul>
 
 <h2>Horizontal Navbar Using Float</h2>
+  <div>
 <pre>
   prova 
   a 
   capo
 </pre>
+    </div>
 <p>Some text on the website.</p>
-
+<div class="container">
+  <div><h2>London</h2><p>London is...</p></div>
+  <div><h2>Oslo</h2><p>Oslo is...</p></div>
+  <div><h2>Rome</h2><p>Rome is...</p></div>
+</div>
 </body>
 </html>
 
